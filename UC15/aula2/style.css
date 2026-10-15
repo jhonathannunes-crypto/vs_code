@@ -1,0 +1,48 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap');
+body{
+   background-color: rgb(104, 106, 108);
+}
+
+h1{
+    color:cyan;
+    font-size: 65px;
+    text-align: center;
+     font-family: "Emblema One", system-ui;
+}
+
+h2{
+    color:cyan;
+    font-size: 40px;
+    text-align: center;
+     font-family: "Emblema One", system-ui;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    margin:auto;
+    display:flex;
+}
+
+p{
+    color:rgb(254, 255, 255);
+    font-size: 25px;
+    font-family: arial, Helvetica, sans-serif;
+}
+
+li::marker{ 
+    color:cyan;
+    font-size: 25px;
+    font-family: arial, Helvetica, sans-serif;
+}
+li{
+    color:rgb(250, 246, 246);
+    font-size: 25px;
+    font-family: arial, Helvetica, sans-serif;
+}
+.emblema-one-regular {
+  font-family: "Emblema One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
