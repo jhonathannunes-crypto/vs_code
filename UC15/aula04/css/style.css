@@ -1,0 +1,26 @@
+body{
+    background-color: #000000;
+}
+
+#imagens{
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10%;
+}
+.f1{
+    margin: 10px;
+    background-color: aliceblue;
+}
+.f2{
+    margin: 10px;   
+    background-color: lightgray;
+}
+.f3{
+    margin: 10px;
+    background-color: lightgray;
+}
+.f4{
+    margin: 10px;
+    background-color: lightgray;
+}

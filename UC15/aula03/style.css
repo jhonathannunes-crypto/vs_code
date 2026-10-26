@@ -1,7 +1,7 @@
 body{
     margin: 0;
     background-image:url('imagem01.jpg');
-    background-size: cover;
+    background-size: auto;
     height: auto;
     width: auto;
 }
@@ -17,7 +17,9 @@ body{
     font-size: 40px;
    text-align: center;
    line-height: 500px;
-
+ background-image:url('cleito.jpg');
+  margin-top: 500px;
+    margin-left: 800px;
 }
 .bloco2{
     margin-top: 0px;
