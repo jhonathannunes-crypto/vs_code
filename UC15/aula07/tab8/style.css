@@ -1,0 +1,29 @@
+body{
+    font-family:sans-serif ;
+    margin: 20px;
+}
+table{
+    background-color: rgb(252, 234, 212);
+    width: 100%;
+    max-width: 800px;
+    text-align: left;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+ tr {
+   border-bottom: 1px solid #ddd;
+}
+th,td{
+    vertical-align: middle;
+    padding: 15px;
+}
+thead th{
+    
+    border-radius: 10px;
+}
+.linha1{
+    background-color: aliceblue;
+}
+.linha2{
+    background-color: aliceblue;
+}
