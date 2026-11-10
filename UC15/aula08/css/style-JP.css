@@ -1,0 +1,37 @@
+ #pagina-home{
+    background: linear-gradient(rgba(253, 1, 1, 0.192), rgb(2, 2, 2) ) ,url(../img/netflix.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#corpo{
+    background: linear-gradient(rgba(253, 1, 1, 0.075), rgb(2, 2, 2) ) ,url(../img/cachoeira.avif);
+}
+
+body{
+   
+    background-image: url('../img/cachoeira.avif');
+   
+    background-size: cover;
+    background-position: center center;
+    margin: 0;
+}
+
+p{
+    color:white;
+    font-size: 25px;
+    margin-top: 100px;
+    font-family: alte Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+    display: grid;
+    grid-template-columns: 90% ;
+    margin-left: 200px;
+   
+
+   
+}
+.jp{
+    margin-top: 100px;
+    margin-left: 600px;
+    
+}
