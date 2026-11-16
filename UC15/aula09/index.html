@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta nome="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="cabecalho">
+        <h1>Formulário</h1>
+
+        <h2>preencha os campos abaixo</h2>
+       </div>
+       
+<div class="formulario">
+
+    <form action="" method="POST"> <!-- post / Get-->
+        <div class="campo">
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" nome="nome" placeholder="Digite o nome Completo do usuário" size="40" required> 
+        </div>
+
+        <div class="campo">
+            <label for="cidade">Cidade</label>
+            <input type="text" id="cidade" nome="cidade" placeholder="Digite a cidade onde reside o usuário" size="40" required> 
+        </div>
+
+        <div class="campo">
+            <label for="email">Email</label>
+            <input type="text" id="email" placeholder="Digite o Email do usuário" size="18" required>
+        </div>
+
+        <div class="campo">
+            <label for="senha">Senha de acesso</label>
+            <input type="password" id="senha" placeholder="Digite a senha do usuario" size="20" required>
+        </div>
+
+        <div class="campo">
+            <label for="data">Data de nascimento</label>
+            <input type="date" id="data" placeholder="DIgite a data de nascimento" size="20" required>
+        </div>
+
+        <div class="campo">
+            <label for="telefone">Telefone de Contato</label>
+            <input type="text" id="telefone" placeholder="(##) #####-####" size="10" required>
+        </div>
+
+        <div class="campo">
+            <label for="estado">Estado</label>
+            <select id="estado" name="estado" required>
+                <option>Rio de Janeiro</option>
+                <option>São Paulo</option>
+                <option>Minas Gerais</option>
+                <option>Ceará</option>
+            </select>
+        </div>
+
+        <div class="campo">
+            <label class="titulo-compo">Turno de preferência</label>
+            <label class="opcao">
+                <input type="radio" name="turno" value="manha"> Manhã
+            </label>
+
+            <label class="opcao">
+            <input type="radio" name="turno" value="Tarde"> Tarde 
+            </label>
+            
+            <label class="opcao">
+            <input type="radio" name="turno" value="noite"> Noite
+            </label>
+        </div>
+
+        <div class="campo">
+            <label class="titulo-compo">Áreas de Interesse</label>
+            <label class="opcao">
+                <input type="checkbox" name="interesses" value="tecnologia"> Tecnologia
+            </label>
+
+            <label class="opcao">
+            <input type="checkbox" name="interesse" value="design"> Design
+            </label>
+            
+            <label class="opcao">
+            <input type="checkbox" name="interesse" value="marketing"> Marketing
+            </label>
+        </div>
+
+        <div class="campo">
+            <lanel for="obs">Observações</lanel>
+            <textarea id="obs" name="obs" rows="3" size="60" placeholder="Escreva aqui seu comentario."></textarea>
+        </div>
+
+        <div class="campo">
+            <label for="foto">Escolha uma foto</label>
+            <input type="file"  id="imagem" name="imagem" placeholder="Selecione uma imagem" accept="image/png*, image/jpeg*" required>
+        </div>
+        
+        <div class="botao">
+            <button class="button" type="submit">Enviar</button>
+        </div>
+
+    </form>
+    </div>
+</body>
+</html>

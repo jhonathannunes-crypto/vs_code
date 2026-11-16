@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Life+Savers:wght@400;700;800&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    font-family: "DM sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /*Altura minima da pagina    vh- tamanho responsivo*/
+    box-sizing: border-box; /* caixa para fotmularios*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    padding-top: 50px;
+    margin: 0;
+    text-align: center;
+    color: black;
+    font-size: 100px;
+
+}
+h2{
+    padding-bottom: 5px;
+    margin: 0;
+    text-align: center;
+    color:rgb(97, 97, 97);
+    font-size: 20px;
+}
+
+.campo{
+    display:flex ; /* Flexivel - Ajusta*/
+    flex-direction: column; /* coluna */
+}
+
+
+.formulario{
+    background-color: rgb(240, 239, 239);
+    border: 1px solid black;
+    padding: 30px 100px;
+    border-radius:35px;
+    color: black;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+.botao{
+    padding-top:5px ;
+    display:flex;
+    justify-content: center;
+}
+
+.button{
+    background-color: rgb(20, 8, 128);
+    color:white;
+    border:none;
+    padding: 20px 50px;
+    border-radius: 10px;
+    cursor: pointer; /* transforma o cursor em opção de clique*/
+    font-size: 15px;
+}
+
+input{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(107, 107, 107);
+}
+
+select{
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(80, 80, 80);
+}
+
+button:hover{
+    transition: backgraund-color 0.4s ease,0.4s ease, border 0.3s ease;
+    background-color: rgb(2, 182, 2);
+    color:black;
+}
+#imagem{
+    margin: 10px;
+    border:none;
+    cursor: pointer;
+
+}
+
+#imagem::file-selector-button{
+    margin-right: 10px;
+    padding:  5px 20px;
+    border-radius: 10px;
+    cursor:pointer;
+    background-color: green;
+    color:aliceblue;
+}
+
+    
+    
