@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reserve sua Mesa</title>
+</head>
+
+
+ <div class="formulario">
+         <div class="cabecalho">
+        <h1>Reserve sua Mesa</h1>
+        <h3>Por favor, preencha o formulário abaixo com atenção para que<br>
+            possamos atendê-lo da melhor forma possível, Seja bem-vindo! </h3>
+    </div>
+    <hr>
+<body>
+    
+
+   
+
+        <form action="" method="POST">
+            <div class="nome">
+                <label for="name">Nome Completo</label>
+                <input type="text" id="name" placeholder="Nome" size="10" required>
+                <input type="text" id="name" placeholder="Sobrenome" size="10" required>
+            </div>
+
+            <div class="campo">
+                <label for="email">Email</label>
+                <input type="text" id="email" placeholder="ex: myname@example.com" size="51" required>
+            </div>
+
+            <div class="campo">
+                <label for="telefone">telefone</label>
+                <input type="text" id="telefone" placeholder="(99) 99999-9999" size="51" required>
+            </div>
+
+            <div class="campo">
+                <label for="pessoas">Numero de Pessoas</label>
+                <input type="text" id="pessoas" placeholder="Qtd pessoas" size="51" required>
+            </div>
+            <hr>
+
+   <h2>Reserva</h2>
+   
+
+            <div class="campo">
+                <label for="reserva">Tipo de Reserva</label>
+                <select id="reserva" name="reserva" placeholder="please select" required>
+                   <option value="" disabled selected>Please Select</option>
+                    <option>Mesa grande</option>
+                     <option>Mesa média</option>
+                      <option>Mesa pequena</option>
+                </select>
+            </div>
+
+             <div class="campo">
+                <label for="outro">Se "Outro" acima, especifique</label>
+                <input type="text" id="outro">
+            </div>
+
+             <div class="campo">
+                <label for="especiais">Pedidos Especiais</label>
+                <input type="text" id="especiais">
+            </div>
+            
+            <div class="botao">
+                <button class="button" type="submit">Enviar</button>
+            </div>
+
+
+
+        </form>
+    </div>
+
+   
+
+
+
+
+
+
+    
+</body>
+</html>
