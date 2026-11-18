@@ -3,32 +3,38 @@
 body{
     background-color: rgb(247, 216, 40);
     font-family: "DM sans", sans-serif;
-    margin: 0;
+    margin: 20px;
     padding: 0;
-    min-height: 100vh;
-    box-sizing: border-box;
-    flex-direction: column;
+
 }
+
 
 .campo{
     display: grid;
     grid-template-columns:200px 1fr;
+    grid-template-rows: 30px;
     gap: 20px;
     max-width: 600px;
-    margin: 0;
-    padding: 30px;
+   
+    padding: 20px;
     border-radius: 9px;
 }
 
-.opcao{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items:start;
+.campo1{
+    margin-top: 100px;
+    display: grid;
+    
+  
+}
+button{
+    padding: 10px 20px;
+    margin: 0;
+    border: none;
+    background-color: rgb(0, 185, 0);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
 }
 
-.opcao-label{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
+
+
