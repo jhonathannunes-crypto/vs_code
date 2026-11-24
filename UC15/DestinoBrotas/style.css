@@ -10,13 +10,76 @@ body{
 
 }
 .mb-0{
+  margin-left: 20px;
   margin-top: 20px;
   font-size: 30px;
   color:black
 }
 thead th,td{
   color: rgb(0, 0, 0);
+  font-size: 25px;
 }
-tbody th,td{
+tbody{
   color: black;
+  justify-self: center;
+  
+ 
+  
+}
+.linha1{
+  font-size: 25px;
+  border: 1px solid black;
+  padding: 20px 40px;
+  
+  
+ 
+}
+
+.tabela{
+  margin-top: 50px;
+margin-left: 600px;
+background-color: rgb(227, 227, 228);
+
+}
+#pagina-home{
+    background-image: url('img/banner.png'); /* Define a imagem de fundo */
+    background-size: cover; /* Faz com que a imagem cubra todo o elemento */
+    background-position: center; /* Centraliza a imagem de fundo */
+    height: 650px;
+}
+.logotipo{
+  height: 200px;
+}
+.tabfundo{
+  background-color: antiquewhite;
+  height: 500px;
+}
+h1{
+  margin-left: 20px;
+  margin-top: 200px;
+  color: rgb(255, 255, 255);
+}
+
+.btn{
+  margin-left: 30px;
+  font-size: 25px;
+  padding: 10px 60px;
+}
+.telefone{
+  font-size: 70px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  
+  color:rgb(255, 255, 255);
+  background-color: brown;
+}
+.logotipo1{
+  height: 80px;
+  margin-left: 700px;
+  
+}
+h2{
+  display:flex ;
+  text-align: center;
 }
