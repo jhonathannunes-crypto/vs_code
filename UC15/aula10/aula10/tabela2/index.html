@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela amarela</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="conteiner" method="POST">
+            <div class="campo">
+                <label for="name">Nome Completo:</label>
+                <input type="text" id="name" size="10" required>
+            </div>
+
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input type="text" id="email" size="10" required>
+            </div>
+
+            <div class="campo">
+                <label for="endereco">Endereço:</label>
+                <input type="text" id="enderecp" size="10" required>
+            </div>
+            <div class="campo">
+                <label for="bairro">Bairro:</label>
+                <input type="text" id="bairro" placeholder="ex: myname@example.com" size="10" required>
+            </div>
+            <div class="campo">
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="ciade" placeholder="ex: myname@example.com" size="10" required>
+            </div>
+
+            <div class="campo">
+                <label for="telefone">telefone fixo ou celular:</label>
+                <input type="text" id="telefone" size="10" required>
+            </div>
+
+            <div>
+                <label class="campo">Serviços em couro:</label>
+            </div>
+
+            <div class="campo">
+            
+            <label class="opcao">
+                <input type="checkbox" name="servicos">Bancos em couro - 100% Legitimo
+            </label>
+
+            <label class="opcao">
+                <input type="checkbox" name="servicos" >Bancos em couro - Misto
+            </label>
+
+            <label class="opcao">
+                <input type="checkbox" name="servicos">Bancos em couro - 100% Sintético
+            </label>
+
+             <label class="opcao">
+                <input type="checkbox" name="servicos">Volantte em couro
+            </label>
+
+             <label class="opcao">
+                <input type="checkbox" name="servicos">Revestimento da manopla e coifa
+            </label>
+
+             <label class="opcao">
+                <input type="checkbox" name="servicos"> Revestimento do apoio do braço
+            </label>
+
+        </div>
+
+         <div>
+                <label class="campo">Restauração em tapeçaria:</label></div>
+
+        <div class="campo">
+            
+            <label class="opcao">
+                <input type="checkbox" name="servicos">Restauração completa em carros antigos
+            </label>
+
+            <label class="opcao">
+                <input type="checkbox" name="servicos">Somente troca do teto
+            </label>
+
+            <label class="opcao">
+                <input type="checkbox" name="servicos">Somente troca do assoalho
+            </label>
+
+             <label class="opcao">
+                <input type="checkbox" name="servicos">Reparo em estruturas dos bancos e ferreagens 
+            </label>
+
+             <label class="opcao">
+                <input type="checkbox" name="servicos">Hidrataçaõ e higienização dos bancos
+            </label>
+
+        </div>
+
+         <div class="campo">
+            <label class="titulo-compo">Acessórios:</label>
+            <label class="opcao">
+                <input type="checkbox" name="servicos">Kit hidrtatação p/Couro
+            </label>
+
+            <label class="opcao">
+                <input type="checkbox" name="servicos">Tapetes personalizados
+            </label>
+
+            <label class="opcao">
+                <input type="checkbox" name="servicos">Adaptação de apoio de braço
+            </label>
+         </div>
+
+         <div class="campo">
+                <label for="reserva">Tipo de Reserva</label>
+                <select id="reserva" name="reserva" placeholder="please select" required>
+                   <option value="" disabled selected>Please Select</option>
+                    <option>honda</option>
+                     <option>mercedes</option>
+                      <option>bmw</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label for="modelo">Nome modelo:</label>
+                <input type="text" id="modelo" size="10" required>
+            </div>
+            <div class="campo">
+                <label for="fabricacao">Ano de fabricação:</label>
+                <input type="text" id="modelo" size="10" required>
+            </div>
+
+            <div class="campo">
+            <label class="pagamento">Especifique a forma de pagamento:</label>
+            <label class="opcao">
+                <input type="radio" name="pagamento">À vista
+            </label>
+
+            <label class="opcao">
+                <input type="radio" name="pagamento">Depósito em conta corrente
+            </label>
+
+            <label class="opcao">
+                <input type="radio" name="pagamento">À vistaDoc ou transferencia brancaria
+            </label>
+
+            <label class="opcao">
+                <input type="radio" name="pagamento">Parcelado até 4x no cartão de crédito.
+            </label>
+
+            <div class="campo1">
+            <lanel for="obs">Diga-nos com maior riqueza de detalhes o serviço de interesse:</lanel>
+            <textarea id="obs" name="obs" rows="3" size="100" ></textarea>
+        </div>
+
+        <div class="botao">
+            <button class="button" type="submit">Enviar</button>
+        </div>
+
+           
+
+
+
+
+
+
+    </form>
+</body>
+</html>

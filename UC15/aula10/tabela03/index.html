@@ -1,98 +1,95 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tabela3</title>
+    <title>Formulário de Cadastro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="images.jpg">
-  
-<div class="formulario">
-    <h1>Formulário de Cadastro</h1>
 
-    <form action="" method="POST">
-        <div class="conteiner">
-            <label for="name">Nome e Sonbrenome</label>
-            <input type="text" id="name" required>
-             <input type="text" id="name" required>
+    <div class="container">
+        <div class="header">
+            <h1>Formulário de Cadastro</h1>
         </div>
 
-            <div class="subcampo">
-            <small>Nome</small>
-            <small>Sobrenome</small>
-        
-        </div>
-
-        <div class="conteiner">
-            <label for="empresa">Empresa</label>
-            <input type="text" id="empresa" required>
-        </div>
-
-        <div class="conteiner">
-            <label for="email">Email</label>
-            <input type="text" id="email" required>
-        </div>
-
-        <div class="conteiner">
-            <label for="email">Email</label>
-            <input type="text" id="email"  size="10">
-            <input type="text" id="email" size="40" required>
-        </div>
-         <div class="subcampo1">
-            <small>DDD</small>
-            <small>Telefone</small>
-        
-        </div>
-
-         <div class="conteiner">
-            <label for="sexo">Sexo</label>
-            <input type="text" id="sexo" required>
-        </div>
-
-         <div class="coteiner">
-            <div class="conteiner">
-            <label for="sexo"><div class="conteiner">
-            <label for="sexo">Sexo</label>
+        <form class="form-body">
+            
+            <div class="form-row">
+                <label class="main-label">Nome e<br>Sobrenome</label>
+                <div class="input-group split-name">
+                    <div class="field-box">
+                        <input type="text" name="nome">
+                        <span class="sub-label">Nome</span>
+                    </div>
+                    <div class="field-box">
+                        <input type="text" name="sobrenome">
+                        <span class="sub-label">Sobrenome</span>
+                    </div>
+                </div>
             </div>
+
+           
+            <div class="form-row">
+                <label class="main-label">Empresa</label>
+                <div class="input-group">
+                    <input type="text" name="empresa">
+                </div>
+            </div>
+
+           
+            <div class="form-row">
+                <label class="main-label">Email</label>
+                <div class="input-group">
+                    <input type="email" name="email">
+                </div>
+            </div>
+
             
-            <div class="conteiner">
-            <label for="sexo">Você é iniciante?</label>
-            <label class="opcao">
-                <input type="checkbox" name="servicos">Sim
-            </label>
+            <div class="form-row">
+                <label class="main-label">Telefone com<br>DDD</label>
+                <div class="input-group split-phone">
+                    <div class="field-box ddd-box">
+                        <input type="text" name="ddd" maxlength="3">
+                        <span class="sub-label">DDD</span>
+                    </div>
+                    <div class="field-box tel-box">
+                        <input type="tel" name="telefone">
+                        <span class="sub-label">Telefone</span>
+                    </div>
+                </div>
+            </div>
 
-             <label class="opcao">
-                <input type="checkbox" name="servicos">Não
-            </label>
+           
+            <div class="form-row">
+                <label class="main-label">Sexo</label>
+                <div class="input-group">
+                    <select name="sexo">
+                        <option value="" disabled selected>Selecione a Opção</option>
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+            </div>
 
-            <div class="botao">
-            <button class="button" type="submit">Enviar</button>
-        </div>
+
+            <div class="radio-section">
+                <p>Você é iniciante?</p>
+                <div class="radio-options">
+                    <label>
+                        <input type="radio" name="iniciante" value="sim" checked> Sim
+                    </label>
+                    <label>
+                        <input type="radio" name="iniciante" value="nao"> Não
+                    </label>
+                </div>
+            </div>
 
             
-        
+            <button type="submit" class="btn-submit">Enviar</button>
+        </form>
+    </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-    </form>
-
-</div>
-
-
-
-
-    
 </body>
 </html>
